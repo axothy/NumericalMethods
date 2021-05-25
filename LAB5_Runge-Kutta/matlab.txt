@@ -1,0 +1,6 @@
+ezplot('(1 + 1) / ((x + 1) * (log(4) - (1 + 1) * (log(1 + 1)) + (1 + 1) * (log(x + 1))))', [1 10.5]);
+
+%оси
+ax = gca;
+ax.XAxisLocation = 'origin';
+ax.YAxisLocation = 'origin'; 
